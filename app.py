@@ -8,7 +8,7 @@ import streamlit as st
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
-uploaded_file = st.file_uploader("C:\Users\OEM\Documents\Corelogic_NZ_HousePriceIndex_Residentialpricemovement_APR2024__1_.xlsx", type="xlsx")
+uploaded_file = st.file_uploader("Corelogic_NZ_HousePriceIndex_Residentialpricemovement_APR2024__1_.xlsx", type="xlsx")
 
 if uploaded_file:
    
